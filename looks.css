@@ -1,0 +1,41 @@
+body{
+    background-color: #b4cad9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-left: 100px;
+    margin-top: 20px
+}
+.circle {
+    height: 500px;
+    width: 500px;
+    background-color: #000000;
+    border-radius: 50%;
+  }
+  .triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 200px solid #263069;
+  position: absolute;
+  top: 250px;
+  left: 150px
+  
+  
+  }
+  #textBox {
+    width: 150px;
+    margin-left: 180px;
+    position: absolute;
+    top: 280px;
+    
+    
+  }
+  p{
+    color: #ffffff
+  }
+  #shakeButton{
+    margin: 10px;
+    margin-left: 220px;
+  }
